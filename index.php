@@ -8,10 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/custom-style.css">
         <!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		
@@ -27,25 +24,24 @@
     </head>
 	<body>
 		<?php
-			require('header.php');
+			require($GLOBALS['VIEWS_FOLDER'].'header.php');
 		?>
 		<div class="wrapper">
-			<?php
-				 require('menu.php');
-			 ?>
 			 <div id="content">
 			 	Content
 			 </div>
 			 
 		 </div>
 		 <?php
-			 require('footer.php');
+			 require($GLOBALS['VIEWS_FOLDER'].'footer.php');
 		 ?>
+		 
+	
 	</body>
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="js/bootstrap.min.js"></script>
 	<!-- Check if latest jQuery is found : else get local -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <!-- Latest compiled and minified JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
 </html>
