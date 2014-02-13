@@ -1,14 +1,15 @@
-<div id="footer">
-	<div class="wrapper">		
-	
-		<div class="footeritem">
-			Home
-		</div>
-		<div class="footeritem">
-			<a href="about.php">About</a>
-		</div>
-		<div class="footeritem">
-			<a href="about.php">Contact</a>
+<footer>
+	<div class="row">	
+		<div class="col-md-12">
+			<div class="col-md-4">
+				<h4>Information</h4>
+			</div>
+			<div class="col-md-4">
+				<h4>Customer Service</h4>
+			</div>
+			<div class="col-md-4">
+				<h4>My Account</h4>
+			</div>
 		</div>
 	</div>
-</div>
+</footer>

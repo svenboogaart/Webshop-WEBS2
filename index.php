@@ -23,20 +23,12 @@
 	    <![endif]-->
     </head>
 	<body>
-		<?php
-			require($GLOBALS['VIEWS_FOLDER'].'header.php');
-		?>
-		<div class="wrapper">
-			 <div id="content">
-			 	Content
-			 </div>
-			 
+		<div class="container">
+			<?php require($GLOBALS['VIEWS_FOLDER'] . 'header.php'); ?>
+			
+			<?php require $GLOBALS['VIEWS_FOLDER'] . 'content.php'; ?>
 		 </div>
-		 <?php
-			 require($GLOBALS['VIEWS_FOLDER'].'footer.php');
-		 ?>
-		 
-	
+		 <?php require($GLOBALS['VIEWS_FOLDER'].'footer.php'); ?>
 	</body>
 	<!-- Check if latest jQuery is found : else get local -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
