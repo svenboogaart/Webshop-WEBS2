@@ -1,5 +1,5 @@
 <footer>
-	<div class="row">	
+	<div class="row well">	
 		<div class="col-md-12">
 			<div class="col-md-4">
 				<h4>Information</h4>

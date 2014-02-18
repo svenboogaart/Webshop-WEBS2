@@ -1,0 +1,31 @@
+.thumbnail{
+	width: 190px;
+	min-height: 350px;
+}
+a.thumbnail:hover {
+    text-decoration: none;
+}
+
+.thumbnail>img, .thumbnail a>img{
+	max-height:228px;
+}
+#search-btn{
+	padding: 9px 12px;
+}
+#account-login{
+	padding: 10px 15px;
+    color: #222;
+     line-height: 21px;
+    position: relative;
+    display: block;
+    background: #428bca;
+    margin-top: 5px;
+}
+#account-login:hover {
+  color: #222;
+  text-decoration: none;
+  background-color: #2a6496;
+}
+.content-wrapper{
+	margin-top:40px;
+}

@@ -30,26 +30,35 @@
 	          </ul>
 	        </li>
 	      </ul>
-	      <form class="navbar-form navbar-left" role="search">
-	        <div class="form-group">
-	          <input type="text" class="form-control" placeholder="Search">
-	        </div>
-	        <button type="submit" class="btn btn-default">Submit</button>
-	      </form>
+	   
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">Producten</a></li>
-	        <li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-	          <ul class="dropdown-menu">
-	            <li><a href="#">Action</a></li>
-	            <li><a href="#">Another action</a></li>
-	            <li><a href="#">Something else here</a></li>
-	            <li class="divider"></li>
-	            <li><a href="#">Separated link</a></li>
-	          </ul>
-	        </li>
+	         <li>
+				<div class="navbar-text login-text">
+			    	Signed in as <a href="#" class="navbar-link">Thomas Reynders</a>
+			    </div>
+		    </li>
+	        <li><a href="#" id="account-login">Login</a></li>
+	        
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
+
+	<div class="row">
+		<div class="col-sm-3 col-md-3">
+			<a href="">
+				<img src="assets/img/shopping-cart-icon.png" alt="" />
+			</a>
+		</div>
+		<div class="col-sm-3 col-md-3 pull-right">
+			<form class="navbar-form" role="search">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+					<div class="input-group-btn">
+						<button id="search-btn" class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search "></i></button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
 </div>

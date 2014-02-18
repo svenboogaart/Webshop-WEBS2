@@ -24,11 +24,14 @@
     </head>
 	<body>
 		<div class="container">
-			<?php require($GLOBALS['VIEWS_FOLDER'] . 'header.php'); ?>
-			
-			<?php require $GLOBALS['VIEWS_FOLDER'] . 'content.php'; ?>
+			<?php 
+				require($GLOBALS['VIEWS_FOLDER'] . 'header.php'); 
+				
+				require $GLOBALS['VIEWS_FOLDER'] . 'content.php';
+				
+				require($GLOBALS['VIEWS_FOLDER'].'footer.php'); 
+			?>
 		 </div>
-		 <?php require($GLOBALS['VIEWS_FOLDER'].'footer.php'); ?>
 	</body>
 	<!-- Check if latest jQuery is found : else get local -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
